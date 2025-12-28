@@ -17,6 +17,7 @@ import h5py
 from dataclasses import dataclass, fields
 from typing import Self
 
+
 @dataclass
 class Lunitek:
     """Class for reading and writing Acoustic Emission .evt files from Lunitek"""
