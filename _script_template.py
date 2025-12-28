@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- (CHANGE IF NECESSARY)
+## -*- coding: utf-8 -*- (CHANGE IF NECESSARY)
 """
 Short descriptive title.
 
@@ -9,11 +9,22 @@ Context: (Why it does what it does)
     Small explanation pharagraph.
 
 Usage: (How to use it)
-    General instructions. Limit to one phrase or two. 
+    General instructions. Limit to one phrase or two.
 
 Created on DDD MMM DD HH:mm:SS YYYY
 
 @author: pmmontanari (pmmontanari@proton.me)
 """
 
-# --- SECTION NAME ---
+## --- User packages ---
+# from foo import bar
+
+## --- SECTION NAME ---
+
+
+def main() -> None:
+    return
+
+
+if __name__ == "__main__":
+    main()
