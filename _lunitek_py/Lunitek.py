@@ -13,9 +13,10 @@ from pathlib import Path
 from datetime import datetime as dt
 import json
 import h5py
+from typing import Self
+
 
 from dataclasses import dataclass, fields
-from typing import Self
 
 
 @dataclass
